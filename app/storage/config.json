@@ -1,0 +1,58 @@
+{
+
+    "url":"https://haveibeenpwned.com/api/v2/breachedaccount/",
+
+    "dance":"images/dance.png",
+    "header_image":"images/secure.jpg",
+
+    "search":"Buscar",
+    "close":"Cerrar",
+    "noclose":"No Cerrar",
+    "back":"Volver",
+    "exit_title":"Salir",
+    "exit_msg":"Desea cerrar la aplicación ? ",
+
+    "links":{
+        "help":"Ayuda",
+        "aboutus":"Acerca"
+    },
+
+    "init":{
+        "name": ":( Te han Hackeado ?",
+        "url":"",
+        "title":"",
+        "description": "Esta aplicación permite buscar en la base\nde datos de haveibeenpwned.com  una\nlista de cuentas (o emails) que se han\nfiltrado en una violación de datos.\n\nUna vez que el nombre de una o más\ncuentas o emails se agregan en la\naplicación, comprobará si alguno de\nestos se encuentra en el Base de datos\nhaveibeenpwned.com.",
+        "modal":{
+            "title":"Resultados",
+            "subtitle":"Busqueda: ",
+            "description":"Se han encontrado un total de %s brechas de seguridad por favor cambie la contraseña si no lo ha hecho ya.",
+            "nomatches":"Felicidades, No se han encontrado nada",
+            "showmore": "Ver mas",
+            "search": "Buscando datos espere...."
+        },
+        "btn": "Comprobar",
+        "image":"images/scrure.jpg"
+    },
+
+    "about": {
+        "name":"Acerca de",
+        "url": "https://github.com/monchovarela",
+        "title":"Hola me llamo Moncho Varela",
+        "description":"Vivo en La Coruña el mejor lugar del mundo.",
+    },
+
+    "help":{
+        "name":"Ayuda",
+        "webview":"html/index.html"
+    },
+
+    "results": {
+        "name":"Resultados",
+        "title":"Resultados de la Busqueda de %2",
+        "description":"Estes son las webs y/o apps que han sido comprometidas",
+        "date": "Fecha",
+        "domain":"Dominio",
+        "verify":"Verificado",
+        "yes":"Si"
+    },
+}

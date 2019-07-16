@@ -1,0 +1,65 @@
+/*  Base
+---------------------------*/
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width:100%;
+}
+html,
+body {
+  font-size: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+}
+b {
+  font-weight: bold;
+  color: black;
+}
+p{padding:0.5em;}
+
+ul{
+  margin:0;
+  padding:0;
+}
+li{
+  padding:0.5em;
+}
+main {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  background: #ECEFF1;
+  color: #263238;
+  padding: 0.5em;
+  border-bottom: 9px solid #CFD8DC;
+  user-select: none;
+}
+header > h3 {
+  margin:0;
+  padding: 0.5em;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.wrapper{
+  padding:0.5em;
+}
